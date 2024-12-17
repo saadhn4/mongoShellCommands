@@ -1,0 +1,9 @@
+It it used to drop a collection from a database
+
+syntax -> db.collectionName.drop()
+
+db.Users.drop()
+
+=> drops the collection called Users in a database
+
+

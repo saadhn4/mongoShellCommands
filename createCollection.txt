@@ -1,0 +1,6 @@
+It is used to create a collection inside the database
+
+syntax: db.createCollection("collectionName")
+
+db.createCollection("Users") -> creates a collection called Users inside the database
+

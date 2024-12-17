@@ -1,0 +1,13 @@
+It is used to add a document (or the data/object) inside the collection
+creates one document at a time 
+
+db.Users.insertOne(
+    {name:"Saad",
+    age: 20,
+    email:"abc@example.com",
+    phoneNumber: "+9123456789",
+    plan: "Premium"
+    
+    }
+    ) 
+    => Inserts a document of name Saad, age 20, email, phoneNumber and plan

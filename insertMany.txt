@@ -1,0 +1,23 @@
+It is used to add 2 or more documents (or the data/object) inside the collection
+creates many document at a time 
+
+db.Users.insertMany(
+  [
+    {name:"Suhail",
+    age: 202,
+    email:"abcd@example.com",
+    phoneNumber: "+9123456987",
+    plan: "Standard"
+
+    },
+    {
+      name:"Rahman",
+    age: 19,
+    email:"xyz@example.com",
+    phoneNumber: "+9123456666",
+    plan: "Premium"
+    }
+  ]
+)
+
+=> adds both these documents inside the collection Users.

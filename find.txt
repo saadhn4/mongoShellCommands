@@ -1,0 +1,13 @@
+It displays the entire document of the specified user from the key and value
+
+db.Users.find({name: "Saad"})
+
+Output: 
+{
+  _id: ObjectId('6761a5c65e9e35c8413a348b'),
+  name: 'Saad',
+  age: 20,
+  email: 'abc@example.com',
+  phoneNumber: '+9123456789',
+  plan: 'Premium'
+}

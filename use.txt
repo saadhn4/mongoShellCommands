@@ -1,0 +1,3 @@
+use dbName is used to create a new database or switch to an existing one (if empty it doesnt show up till collections are created in it.)
+
+use prime -> creates a database called prime

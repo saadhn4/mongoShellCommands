@@ -1,0 +1,3 @@
+It is used to remove the entire database
+
+db.dropDatabase() 

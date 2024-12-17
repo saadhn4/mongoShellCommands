@@ -1,0 +1,7 @@
+It is used to edit a specific key value pair 
+
+db.Users.updateOne({name:"Suhail"},
+                   { $set: {plan: "Premium"}
+})
+
+=> changes Suhail's plan to Premium from Standard.

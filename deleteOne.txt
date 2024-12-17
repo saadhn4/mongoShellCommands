@@ -1,0 +1,5 @@
+It deletes an entire document or an object 
+
+db.Users.deleteOne({name:"Suhail"})
+
+=> deletes document of User named Suhail
